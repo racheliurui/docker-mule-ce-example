@@ -1,11 +1,11 @@
 FROM debian:wheezy
-MAINTAINER sohrab <sohrab@sixtree.com.au>
+MAINTAINER rachel <racheliu.au@gmail.com>
 
-ENV JRE_DOWNLOAD_FILE jre-7u75-linux-x64.tar.gz
-ENV JRE_DOWNLOAD_URL http://download.oracle.com/otn-pub/java/jdk/7u75-b13/$JRE_DOWNLOAD_FILE
-ENV JRE_EXPANDED_FILE jre1.7.0_75
+ENV JRE_DOWNLOAD_FILE jre-8u102-linux-x64.tar.gz
+ENV JRE_DOWNLOAD_URL http://download.oracle.com/otn-pub/java/jdk/8u102-b14/$JRE_DOWNLOAD_FILE
+ENV JRE_EXPANDED_FILE jre1.8.0_102
 
-ENV MULE_VERSION 3.6.1
+ENV MULE_VERSION 3.8.0
 
 # install supporting tools
 RUN apt-get update && \
